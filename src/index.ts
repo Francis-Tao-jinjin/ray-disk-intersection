@@ -1,7 +1,8 @@
 import { Disk, intersectDisk } from './ray-disk-intersection';
-import { Plane, intersectPlane } from './ray-plane-intersection';
+import { Ray, Plane, intersectPlane } from './ray-plane-intersection';
 
 export {
+    Ray,
     Disk,
     Plane,
     intersectDisk,
